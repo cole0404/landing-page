@@ -8,8 +8,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    gap: 10px;
+    padding-top: 24px;
+    gap: 24px;
     margin-bottom: 100px;
 }
 
@@ -29,16 +29,33 @@ body {
 
 .hero-box {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.hero-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .hero-image {
     height: auto;
     width: 600px;
+    margin-left: 200px;
 }
 
 .hero-text {
     color: #F9FAF8;
     font-weight: 900;   
     font-size: 48px; 
+}
+
+.button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 8px 32px;
+    display: inline-block;
 }
