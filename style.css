@@ -19,9 +19,9 @@ body {
     justify-content: space-between;
 }
 
-.header-links, .hero-desc {
+.header-links, .hero-desc, .card-text {
     font-size: 18px;
-    color: #E5E7EB;
+    color: gray;
     text-decoration: none;
 }
 
@@ -44,9 +44,9 @@ body {
     color: #F9FAF8;
 }
 
-.hero-box {
+.hero-box, .info-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .hero-sub {
@@ -78,7 +78,7 @@ body {
     display: inline-block;
 }
 
-.box1 .inner {
+.box1 .inner, .box2 .inner {
     height: 6in;
     display: flex;
     flex-direction: column;
@@ -91,6 +91,30 @@ body {
 
 .box2 {
     background-color: #F9FAF8;
-    height: 5in;
+}
 
+.info-box {
+    gap: 32px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: -64px;
+}
+
+.card-image {
+    flex: 0 0 auto;
+    height: 200px;
+    width: 200px;
+    padding: 4px;
+    background-color: #3882f6;
+    border-radius: 16px;
+}
+
+.card-text {
+    text-align: center;
+    margin: 16px;
 }
